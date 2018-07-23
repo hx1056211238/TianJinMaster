@@ -1,0 +1,3557 @@
+# GUIBUILDER FILE Build 146
+# Created: 2016-10-28 21:34:39 by GUI Builder Build 146
+language tkinter 8.4
+widget {Tk frame} f {
+	geometry min_column {40 17 40 40 40 40 40 40 40 40 40 40 40 40}
+	geometry min_row {40 2 2 4 2 2 2 12 2 4 2 2 2 2 2 2 2 2 33}
+	geometry pad_column {0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+	geometry pad_row {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+	geometry resize_column {0 1 3 3 3 3 3 3 3 3 3 3 3 3}
+	geometry resize_row {0 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3}
+	geometry weight_column {0 0 1 1 1 1 1 1 1 1 1 1 1 1}
+	geometry weight_row {0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1}
+	data GROUP Tk
+	data ID {}
+	data MASTER {}
+	data TYPE {Tk frame}
+	data level 0
+}
+widget {Tk label} _label_3 {
+	configure -text 1
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_3
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_5 {
+	configure -text 2
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_5
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_6 {
+	configure -text 3
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_6
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_7 {
+	configure -text 4
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_7
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_8 {
+	configure -text 5
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_8
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_9 {
+	configure -text 6
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_9
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_10 {
+	configure -text 7
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_10
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_11 {
+	configure -text 8
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_11
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_12 {
+	configure -text 9
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_12
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_13 {
+	configure -text 10
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_13
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_14 {
+	configure -text 11
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_14
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_15 {
+	configure -text 12
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_15
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk panedwindow} _panedwindow_1 {
+	configure -background #999999
+	configure -height 0
+	configure -width 0
+	geometry -column 1
+	geometry -columnspan 14
+	geometry -row 2
+	geometry -rowspan 1
+	geometry -sticky news
+	data GROUP Tk
+	data ID _panedwindow_1
+	data MASTER {}
+	data TYPE {Tk panedwindow}
+}
+widget {Tk label} _label_29 {
+	configure -text 1
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_29
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_30 {
+	configure -text 2
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_30
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_31 {
+	configure -text 3
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_31
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_32 {
+	configure -text 4
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_32
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_33 {
+	configure -text 5
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_33
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_34 {
+	configure -text 6
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_34
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_35 {
+	configure -text 7
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_35
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_36 {
+	configure -text 8
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_36
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_37 {
+	configure -text 9
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_37
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_38 {
+	configure -text 10
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_38
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_39 {
+	configure -text 11
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_39
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_40 {
+	configure -text 12
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_40
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_41 {
+	configure -text 13
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_41
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_42 {
+	configure -text 13
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_42
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_43 {
+	configure -text 13
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_43
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_48 {
+	configure -text 11
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_48
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_49 {
+	configure -text 12
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_49
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_50 {
+	configure -text 13
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_50
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_51 {
+	configure -text 14
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_51
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_52 {
+	configure -text 15
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_52
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_53 {
+	configure -text 16
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _label_53
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk panedwindow} _panedwindow_2 {
+	configure -background #999999
+	configure -height 0
+	configure -width 0
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 16
+	geometry -sticky news
+	data GROUP Tk
+	data ID _panedwindow_2
+	data MASTER {}
+	data TYPE {Tk panedwindow}
+}
+widget {Tk label} _label_25 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_1
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_26 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_2
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_27 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_3
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_28 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_4
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_44 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_5
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_45 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_6
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_46 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_7
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_47 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_8
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_54 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_9
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_55 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_10
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_56 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_11
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_57 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_12
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_58 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_13
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_59 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_25
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_60 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_37
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_61 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_49
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_62 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_61
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_63 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_73
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_64 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_85
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_65 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_97
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_66 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_109
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_67 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_121
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_68 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_133
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_69 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_145
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_70 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_157
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_71 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_169
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_72 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_181
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk button} _button_1 {
+	configure -background #cccccc
+	configure -font {{MS Sans Serif} 15}
+	configure -text <-返回
+	geometry -column 3
+	geometry -columnspan 3
+	geometry -row 19
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _button_1
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_3 {
+	configure -background #cccccc
+	configure -font {{MS Sans Serif} 15}
+	configure -text 电压(mV)
+	geometry -column 7
+	geometry -columnspan 3
+	geometry -row 19
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _btn_show_V
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_4 {
+	configure -background #cccccc
+	configure -font {{MS Sans Serif} 15}
+	configure -text 电流(mA)
+	geometry -column 10
+	geometry -columnspan 3
+	geometry -row 19
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _btn_show_A
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk label} _label_73 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_14
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_74 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_26
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_75 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_38
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_76 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_50
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_77 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_62
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_78 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_74
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_79 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_86
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_80 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_98
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_81 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_110
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_82 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_122
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_83 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_134
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_84 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_146
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_85 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_158
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_86 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_170
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_87 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_182
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_88 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_15
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_89 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_27
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_90 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_39
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_91 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_51
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_92 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_63
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_93 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_75
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_94 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_87
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_95 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_99
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_96 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_111
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_97 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_123
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_98 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_135
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_99 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_147
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_100 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_159
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_101 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_171
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_102 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 5
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_183
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_103 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_16
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_104 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_28
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_105 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_40
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_106 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_52
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_107 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_64
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_108 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_76
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_109 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_88
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_110 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_100
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_111 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_112
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_112 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_124
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_113 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_136
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_114 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_148
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_115 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_160
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_116 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_172
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_117 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_184
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_118 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_17
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_119 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_29
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_120 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_41
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_121 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_53
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_122 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_65
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_123 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_77
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_124 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_89
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_125 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_101
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_126 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_113
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_127 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_125
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_128 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_137
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_129 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_149
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_130 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_161
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_131 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_173
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_132 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 7
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_185
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_133 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_18
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_134 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_30
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_135 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_42
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_136 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_54
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_137 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_66
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_138 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_78
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_139 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_90
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_140 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_102
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_141 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_114
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_142 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_126
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_143 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_138
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_144 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_150
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_145 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_162
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_146 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_174
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_147 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 8
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_186
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_148 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_19
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_149 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_31
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_150 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_43
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_151 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_55
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_152 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_67
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_153 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_79
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_154 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_91
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_155 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_103
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_156 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_115
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_157 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_127
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_158 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_139
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_159 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_151
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_160 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_163
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_161 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_175
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_162 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 9
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_187
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_163 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_20
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_164 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_32
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_165 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_44
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_166 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_56
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_167 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_68
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_168 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_80
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_169 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_21
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_170 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_33
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_171 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_45
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_172 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_57
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_173 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_69
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_174 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_81
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_175 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_22
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_176 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_34
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_177 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_46
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_178 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_58
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_179 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_70
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_180 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_82
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_181 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_23
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_182 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_35
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_183 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_47
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_184 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_59
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_185 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_71
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_186 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_24
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_187 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_36
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_188 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_48
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_189 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_60
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_190 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_72
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_191 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_84
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_192 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_108
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_193 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_120
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_194 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_132
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_195 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_144
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_196 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_156
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_197 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_168
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_198 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_180
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_199 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_192
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_200 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_191
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_201 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_179
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_202 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_167
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_203 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_155
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_204 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_143
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_205 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 9
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_83
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_206 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_95
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_207 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_107
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_208 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_119
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_209 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 13
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_131
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_210 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 14
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_96
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_211 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_94
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_212 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_106
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_213 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_118
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_214 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_130
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_215 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_142
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_216 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_154
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_217 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_166
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_218 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_178
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_219 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 12
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_190
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_220 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_93
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_221 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_105
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_222 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_117
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_223 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_129
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_224 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_141
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_225 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_165
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_226 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_177
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_227 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_189
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_228 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 11
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_153
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_229 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 10
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_92
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_230 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 11
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_104
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_231 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 12
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_116
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_232 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 13
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_128
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_233 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 14
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_140
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_234 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 15
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_152
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_235 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 16
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_164
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_236 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 17
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_176
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk label} _label_237 {
+	configure -background #666666
+	configure -borderwidth 3
+	configure -foreground #ffffff
+	configure -relief solid
+	configure -text 4200.0
+	geometry -column 10
+	geometry -columnspan 1
+	geometry -row 18
+	geometry -rowspan 1
+	geometry -sticky nsew
+	data GROUP Tk
+	data ID _b_188
+	data MASTER {}
+	data TYPE {Tk label}
+}
+

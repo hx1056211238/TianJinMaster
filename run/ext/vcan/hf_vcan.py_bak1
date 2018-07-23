@@ -1,0 +1,212 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import time
+import can
+import os
+#from can.interfaces.interface import Bus
+#from can import Message
+import logging
+
+"""
+can.rc['interface'] = 'socketcan_ctypes'
+can.rc['channel'] = 'can0'
+
+bus = can.interfaces.interface.Bus()
+
+test = can.Message(extended_id=True, arbitration_id=0x00000600, data=[0])
+test.data
+
+test.dlc
+
+print "test" + str(test)
+
+a=bus.send(test)
+b=bus.recv()
+
+"""
+
+
+class hf_vcan(object):
+
+    _bus = None
+    _port = 0
+    _bcrc = False
+    def __init__(self):
+        pass
+
+    def init(self, port = 0, reset=True, use_crc = False):
+        can.rc['interface'] = 'socketcan_ctypes'
+        can.rc['channel'] = 'can' + str(port)
+        self._port = port
+        self._bcrc = use_crc
+        if reset:
+            if self._port==1: 
+                os.system('sudo ip link set can0 down')
+                time.sleep(0.2)
+                os.system('sudo ip link set can0 up type can bitrate 100000  restart-ms 200')
+
+
+            if self._port==0:
+                os.system('sudo ip link set can0 down')
+                time.sleep(0.2)
+                os.system('sudo ip link set can0 up type can bitrate 100000 restart-ms 200')
+            #if self._port==1: 
+            #    os.system('sudo ip link set can1 down')
+            #    time.sleep(0.2)
+            #    os.system('sudo ip link set can1 up type can bitrate 100000  restart-ms 200')
+            logging.basicConfig(level=logging.ERROR,format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+                                datefmt='%a, %d %b %Y %H:%M:%S',
+                                filename='vcan'+ str(port)  +'.log',
+                                filemode='w')
+
+
+        logging.error('vcan start:')
+
+        self._bus = can.interfaces.interface.Bus()
+
+    def release(self):
+        pass
+
+    def hexDWORD(self, dec):
+        return "%s"%("00000000%s"%(hex(dec&0xffffffff)[2:-1]))[-8:]
+
+    """ ==============================
+    计算--命令数据的CRC校验码
+    参数：
+            lt 输入的命令全部内容
+    """
+    def getModCRC(self,lt):
+        byte_crc = 0
+        for i in range(0, len(lt)):
+            byte_crc = byte_crc + lt[i]
+        byte_crc = byte_crc % 256
+        return byte_crc
+
+
+
+    def recv_from(self, id, data_len):
+        ret = ""
+        data_len -= 1
+        rev_len = data_len
+        rev_data = bytearray()
+        c = 0
+        #主板最大15，超过15回0
+        #CAN板ID为013，不进行回贞ID判断
+        for c in range(data_len/8):
+            rm = self._bus.recv(0.1)
+            #print self.hexDWORD(rm.arbitration_id)[6:8]
+            #print rm
+            
+            if rm != None:
+                if  (id=="013" or id == self.hexDWORD(rm.arbitration_id)[0:3]) and int(self.hexDWORD(rm.arbitration_id)[6:8], 16) == c:
+                    rev_data += rm.data
+        c = c + 1
+        if data_len%8 != 0:
+            rm = self._bus.recv(0.1)
+            if rm != None:
+                if (id=="013" or id == self.hexDWORD(rm.arbitration_id)[0:3]) and int(self.hexDWORD(rm.arbitration_id)[6:8], 16) == c:
+                    rev_data += rm.data
+        #if ret != "":
+        #ret = [int(i, 16) for i in ret.encode("hex")]
+        #''.join(str(int(a[i:i+2], 16)) for i in range(0, len(a),2))
+        #print rev_len
+        #print len(rev_data)
+        if len(rev_data) == 0:
+            if data_len == 1:#data_len == 1 not return data.
+                return "0"
+            elif data_len == 0:
+                return ""
+            else:
+                #print "vcan need return: " + str(data_len)
+                return None
+
+        if (rev_len > len(rev_data)):
+            return None
+            #rev_data += bytearray([len(rev_data) for i in range(data_len)])
+        #print rev_data
+        ret = [int(rev_data[i]) for i in range(0,len(rev_data))]
+        if self._bcrc:
+            crc = ret.pop()
+            if crc != self.getModCRC(ret):
+                print str(id) + " CRC Error!"
+                return None
+        #ret = bytes(rev_data)
+        #ret = map(int, rev_data)
+        #print "vcan recv " + str(data_len) + " byte: " + str(ret)
+        return ret
+
+    def reset_bus(self):
+        #self._bus.shutdown()
+        self._bus = None
+        logging.error('error send -1 :' + str(self._port))                 
+        if self._port==0:
+            os.system('sudo ip link set can0 down')
+            time.sleep(0.2)
+            os.system('sudo ip link set can0 up type can bitrate 100000')
+            time.sleep(0.2)
+        if self._port==1: 
+            #os.system('sudo ip link set can1 down')
+           # time.sleep(0.2)
+           # os.system('sudo ip link set can1 up type can bitrate 100000')
+           # time.sleep(0.2)
+            os.system('sudo ip link set can0 down')
+            time.sleep(0.2)
+            os.system('sudo ip link set can0 up type can bitrate 100000')
+            time.sleep(0.2)
+
+        time.sleep(0.5)
+        logging.error('reset vcan')
+        self._bus = can.interfaces.interface.Bus()
+        
+    def use_crc(self):
+        self._bcrc = True
+        
+    def sendto(self, board, data, ret):
+        a=board
+        b=ret
+        if a== b:
+            pass
+        tmp = data.split(',')
+        ret_len = int(tmp[-1]) + 1 #received lenghth
+        bn = 0
+        for c in tmp[:-1]:
+            #print "recv command: " + c
+            d = c.split('#')
+            s = ''.join(chr(int(d[1][i:i+2], 16)) for i in range(0, len(d[1]),2))
+            bn = int(int(d[0][:4], 16) >> 5)
+            #print "vcan send board No. child: " + str(bn) +" command: " + d[-1]
+            m = can.Message(extended_id = True, arbitration_id = int(d[0], 16), data = s)
+
+            #print "data = s:",s
+
+           # print "can.Message:",m
+            ret =  self._bus.send(m)
+            #print "vcan send ret:" + str(ret)
+
+            if ret == -1:
+                self.reset_bus()#reset io
+                return (bn, None)
+                #ret = self._bus.send(m)
+                #logging.error('return message :' + str(ret))
+        #ret1=ret_len
+        #ret2=[0 for i in range(ret_len)]
+        #print "vcan send board No.: " + str(bn) +" command: " + data
+        ret2 = self.recv_from(d[0][:3], ret_len)
+        return (bn,ret2)
+
+def test():
+    vcan = hf_vcan()
+    vcan.init(0)
+    print vcan.sendto("0", "00400600#00,150", -1)
+    #vcan.sendto("0", "01e00100#0000000000000000,01e00101#0000000502000000,01e00102#b80b0000ffff,1", -1)
+    
+def test1():
+    vcan = hf_vcan()
+    vcan.init(1)
+    print vcan.sendto("0", "013F0200#00,62", -1)#36 is old , 26+20 = 46   32+30 = 62
+
+if __name__ == '__main__':
+    test1()
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4

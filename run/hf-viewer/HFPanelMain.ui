@@ -1,0 +1,97 @@
+# GUIBUILDER FILE Build 146
+# Created: 2016-10-24 23:29:29 by GUI Builder Build 146
+language tkinter 8.4
+widget {Tk frame} f {
+	geometry min_column {40 2 40 40}
+	geometry min_row {40 40}
+	geometry pad_column {0 0 0 0}
+	geometry pad_row {0 0}
+	geometry resize_column {3 0 3 3}
+	geometry resize_row {3 3}
+	geometry weight_column {1 0 1 1}
+	geometry weight_row {1 1}
+	data GROUP Tk
+	data ID {}
+	data MASTER {}
+	data TYPE {Tk frame}
+	data level 0
+}
+widget {Tk button} _button_2 {
+	configure -image ../../../Desktop/battery.gif
+	configure -text _button_2
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _button_battery
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_6 {
+	configure -image ../../../Desktop/config.gif
+	configure -text _button_2
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 2
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _button_config
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_8 {
+	configure -image ../../../Desktop/monitor.gif
+	configure -text _button_2
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 2
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _button_monitor
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_9 {
+	configure -image ../../../Desktop/exit.gif
+	configure -text _button_2
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 2
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _button_exit
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_1 {
+	configure -image ../../../Desktop/reset.gif
+	configure -text _button_2
+	geometry -column 4
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _button_reset
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_3 {
+	configure -image ../../../Desktop/start.gif
+	configure -text _button_2
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	data GROUP Tk
+	data ID _button_start
+	data MASTER {}
+	data TYPE {Tk button}
+}
+
